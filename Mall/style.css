@@ -1,0 +1,133 @@
+:root {
+    --aside-width: 15%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+img {
+    width: 50%;
+    /* height: 10%; */
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid: auto / var(--aside-width) 1fr;
+    font-family: "Comic sans MS";
+}
+
+aside {
+    background-color: #7092ff;
+}
+
+.aside__wrapper {
+    position: fixed;
+    width: var(--aside-width);
+    height: 100%;
+}
+
+.header {
+    /* background-color: red; */
+    padding: 3em 0;
+}
+
+.header__logo {
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-image: url("b69.png");
+    background-color: #94AAF0;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.header__title {
+    /* background-color: bisque; */
+    text-align: center;
+    margin-top: 0em;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+/* nav {
+    background-color: chocolate;
+} */
+
+.nav__links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    /* background-color: chartreuse; */
+}
+
+.nav__link {
+    /* background-color: crimson; */
+    text-align: center;
+}
+
+.nav__link + * {
+    padding-top: 2em;
+    position: relative;
+}
+
+.nav__link + *::before {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 1px;
+    top: 23%;
+    transform: translateX(-8%);
+    background-color: black;
+}
+
+.nav__links a {
+    font-family: 'Concert One', sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    color: inherit;
+
+    /* background-color: yellow; */
+}
+
+.main__heading {
+    font-size:96px;
+    text-align: center;
+}
+
+.main__text {
+    font-size: 16px;
+}
+
+.main__text--center {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main__content {
+    padding: 4em;
+    gap: 4em;
+    display: flex;
+}
+
+.main__content > * {
+    flex: 1 1 0;
+}
+
+.main__frame {
+    display: flex;
+    background-image: linear-gradient(white, grey);
+    padding: 4em;
+    gap: 4em;
+}
+
+.main__frame img {
+    width: calc(100% / 3 - 4em);
+}
