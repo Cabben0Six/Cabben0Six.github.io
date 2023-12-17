@@ -1,0 +1,71 @@
+main {
+    padding-left: 2%;
+}
+
+.dumbSolution {
+    padding: 20px;
+}
+
+.Line {
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 65px;
+    color: white;
+    padding-top: 15px;
+    line-height: 60px;
+}
+
+h2 {
+    font-size: 40px;
+    color: white;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+section {
+    padding-bottom: 30px;
+    padding-right: 15%;
+}
+
+.lastSection {
+    padding-bottom: 15px;
+}
+
+section img {
+    border: 5px solid white/*rgb(255, 144, 144)*/;
+    border-radius: 8px;
+}
+
+section img:hover {
+    cursor: pointer;
+}
+
+audio {
+    padding-top: 10px;
+}
+
+.pageEnd {
+    padding-top: 5px;
+    padding-bottom: 5%;
+}
+
+.pageEnd a {
+    color: rgb(255, 144, 144);
+    text-decoration: underline;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.pageEnd a:hover {
+    color: rgb(255, 198, 144);
+    cursor: pointer;
+}

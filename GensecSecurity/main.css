@@ -1,0 +1,85 @@
+main {
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+}
+
+.MainTitle {
+    padding: 10px;
+    padding-bottom: 50px;
+}
+
+.MainTitle h1 {
+    font-size: 95px;
+    color: white;
+}
+
+.MainTitle p {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.LeSections {
+    display: grid;
+    grid: auto auto auto / auto;
+    row-gap: 60px;
+}
+
+.One {
+    display: grid;
+    grid: auto / auto 50%;
+    column-gap: 20px;
+}
+
+.One img {
+    border: 5px solid white;
+    border-radius: 8px;
+    place-self: flex-end;
+}
+
+.One div {
+    text-align: left;
+    padding-right: 15%;
+}
+
+.Two {
+    display: grid;
+    grid: auto / 50% auto;
+    column-gap: 20px;
+}
+
+.Two img {
+    border: 5px solid white;
+    border-radius: 8px;
+    place-self: flex-start;
+}
+
+.Two div {
+    text-align: right;
+    padding-left: 15%;
+}
+
+.LastText {
+    padding: 100px;
+}
+
+.LastText h2 {
+    font-size: 40px;
+}
+
+.LastText h2 a {
+    color: rgb(255, 144, 144);
+    text-decoration: underline;
+}
+
+.LastText h2 a:hover {
+    color: rgb(255, 198, 144);
+}
