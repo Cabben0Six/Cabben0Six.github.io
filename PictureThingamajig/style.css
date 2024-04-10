@@ -1,0 +1,34 @@
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageBox {
+    display: flex;
+    flex-direction: row;
+}
+
+.imageBox > .imageContainer > img {
+    width: calc(1024px / 2);
+}
+
+.imageBox > .Spec1 > img {
+    width: calc(177px * 2.59240506329);
+}
+
+.imageBox > .Spec2 > img {
+    width: calc(218px * 2.59240506329);
+}
+
+img {
+    transition: transform 1.2s;
+    perspective: 1000px;
+    display:block;
+    /* border: 2px solid red; */
+}
+
+.imageContainer:hover > img {
+    transform: rotateY(180deg);
+    transition: 0.8s;
+}
