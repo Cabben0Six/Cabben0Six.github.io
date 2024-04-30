@@ -1,0 +1,500 @@
+[
+	{
+		"product": "ID06",
+		"title": "ID06",
+		"description": "ID06 AB (tidigare Sveriges Byggindustrier) har i samverkan med Byggbranschen skapat en standard för ID-kort (ID06-kortet) som ska användas av personer som vistas på byggarbetsplatser. Från och med 1:a oktober 2016  drivs ID06 som ett eget bolag, ID06 AB.",
+		"icon": "icons/id06.png",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "Integration med ID06 kompetensdatabas som master med överföring av kompetensposter för medarbetare med aktivt ID06-kort till Saba (SBX) så att tillägg, ändring eller borttagning av kompetensposter i ID06 leder till motsvarande uppdatering på utbildningshistorikpost i SBX (utbildningsbaserad historik, dvs adhoc). Giltighetstid från ID06 kontrolleras mot motsvarande certifieringspost i SBX och eventuella funna avvikelser rapporteras till kund.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+	{
+		"product": "Enterprise HRM",
+		"title": "Enterprise HRM",
+		"description": "",
+		"icon": "icons/whut.webp",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "Dataflöde mellan Enterprise HRM och Saba går via Visma Talent integrationsserver som driftas hos Amazon Web Services (AWS) via Visma ITC. Integrationsservern hämtar data från Enterprise HRM, transformerar datan med logik enligt denna specifikation och laddar sedan upp resulterande csv-filer till kundens SFTP-konto hos Saba. Integrationsmotorn i Saba ställs in för att hämta och läsa in filer från detta SFTP-konto.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+	{
+		"product": "Data Hub",
+		"title": "Data Hub",
+		"description": "",
+		"icon": "icons/Datahub.png",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "Dataflöde mellan DataHub och Saba går via Visma Talent integrationsserver som driftas hos Amazon Web Services (AWS) via Visma ITC. Integrationsservern hämtar data från DataHub, transformerar datan med logik enligt denna specifikation och laddar sedan upp resulterande csv-filer till kundens SFTP-konto hos Saba. Integrationsmotorn i Saba ställs in för att hämta och läsa in filer från detta SFTP-konto. För detta krävs vitlistning av integrationsserverns IP hos Saba.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+	{
+		"product": "HR-plus 8",
+		"title": "HR-plus 8",
+		"description": "",
+		"icon": "icons/hrplus8.png",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "Byggd av HR-plus, dvs endast Saba standard-funktionalitet används av oss vid uppsättning men vi behöver ha koll på vilka som har den och får lägga tid när nya saker ska specas, testas osv. Denna tid får vi inte betalt för. Dock ska vi få det för införande. Det är vi som äger och uppdaterar specen. HR-plus har lite info på sin confluence om hur deras konfig går till, men vårt dokument är \"helhetsbilden\". Det finns även ett malldokument att fylla i när man diskuterar konfig med kund (som kunden sedan ska äga).",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+			{
+				"product": "Visma Talent (CSX)",
+				"integration_description": "",
+				"integration_status": "ongoing",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+    {
+		"product": "Agda PS",
+		"title": "Agda PS",
+		"description": "",
+		"icon": "icons/agda-ps-logo.png",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "Sabas standardfunktionalitet för integration via filöverföring. Datamappningen sker för att skapa ett underlag för en beställning av integrationsfiler från källsystemet i syfte att integrera organisationer, jobb, orter och personer.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+    {
+		"product": "Didac trainer",
+		"title": "Didac trainer",
+		"description": "",
+		"icon": "icons/Logo-Didac-Black@4x.png",
+		"integrations": [
+			{
+				"product": "Dialog",
+				"integration_description": "Dialog har endast möjlighet att integrera mot annat system. Det finns inga möljligheter att från VTS håll intergrera mot Dialog.",
+				"integration_status": "not_started",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+    {
+		"product": "Visma Multi",
+		"title": "Visma Multi",
+		"description": "",
+		"icon": "icons/multimobil.png",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "Integrationen är enkelriktat från Multi till Visma Talent, d.v.s ingen överläsning sker från Visma Talent till Multi. Integrationen behandlar person, oragnisation, jobbdata. Integrationen har även stöd för multipla anställningar.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+    {
+		"product": "Personec P",
+		"title": "Personec P",
+		"description": "",
+		"icon": "icons/personec.png",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "Integrationen är enkelriktat från Personec P till Visma Talent, d.v.s ingen överläsning sker från Visma Talent till Personec P.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+    {
+		"product": "Talent Hire",
+		"title": "",
+		"description": "",
+		"icon": "icons/Visma_Recruit.png",
+		"integrations": [
+			{
+				"product": "HR-plus 8",
+				"integration_description": "För nya anställningar i Recruit skickas ett nyanställningsärende till HR-plus.",
+				"integration_status": "ongoing",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+            {
+				"product": "Nmbrs",
+				"integration_description": "Automatisk nykundsregistrering och provisionering av Visma Recruit. Överföring av nyanställda",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+            {
+				"product": "Visma Talent (SBX)",
+				"integration_description": "",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+            {
+				"product": "W3D3",
+				"integration_description": "Integrationen hämtar dokument kopplade till anställd personal och leverera till en SFTP",
+				"integration_status": "ongoing",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+			{
+				"product": "Didac trainer",
+				"integration_description": "För nya anställningar i Recruit skapas en profil för omboarding i Didact Trainer",
+				"integration_status": "ongoing",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+    {
+		"product": "Visma Talent (SBX)",
+		"title": "",
+		"description": "This is a description for the product.",
+		"icon": "icons/wat2.png",
+		"integrations": [
+			{
+				"product": "2FA",
+				"integration_description": "",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+            {
+				"product": "FinAut",
+				"integration_description": "",
+				"integration_status": "ongoing",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+            {
+				"product": "Medvind",
+				"integration_description": "",
+				"integration_status": "ongoing",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+            {
+				"product": "SMS",
+				"integration_description": "Integration mot olika SMS-gateways för att SBX ska kunna skicka ut sms-notifieringar.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			},
+			{
+				"product": "Training Orchestra",
+				"integration_description": "Training Orchestra är ett användarvänligt verktyg som förenklar processen att planera träningspass och tilldela utbildare. Detta verktyg kommer att integreras i Saba, vilket gör det möjligt för administratörer att planera för SBX mer effektivt. För att uppnå detta krävs en mellanprogramvara för att underlätta överföringen av data mellan de två systemen. Både SBX och Training Orchestra har sina egna Rest APIs, som mellanvaran kommer att använda för att hämta och skicka data mellan dem. För att säkerställa att mellanprogramvaran förblir uppdaterad med de senaste ändringarna måste den kontinuerligt efterfråga API:erna för uppdateringar. Tyvärr stöder inget av systemen webhooks för dessa objekt så kan inte uppnå realtidsuppdateringar. På grund av Sabas API-gräns kommer mellanvaran att hämta data från Saba varje timme, medan Training Orchestra inte har några sådana begränsningar och kommer att avfrågas var 5:e minut.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+        ]
+    },
+	{
+		"product": "2FA",
+		"title": "2FA",
+		"description": "",
+		"icon": "icons/2fa.png",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+		]
+	},
+	{
+		"product": "Dialog",
+		"title": "Dialog",
+		"description": "",
+		"icon": "icons/dialog.png"
+	},
+	{
+		"product": "Medvind",
+		"title": "Medvind",
+		"description": "",
+		"icon": "icons/medvind.png"
+	},
+	{
+		"product": "W3D3",
+		"title": "W3D3",
+		"description": "",
+		"icon": "icons/w3d3.png"
+	},
+	{
+		"product": "Nmbrs",
+		"title": "Nmbrs",
+		"description": "",
+		"icon": "icons/vismanumbers.webp"
+	},
+	{
+		"product": "SMS",
+		"title": "SMS",
+		"description": "Gateways för att skicka sms, för närvarande har vi stöd för Link Mobility, Tellus Talk och Main Gate. Main Gate är den leverantör som VTS har eget avtal med.",
+		"icon": "icons/Visma-Mamut-One-logo.webp"
+	},
+	{
+		"product": "Visma Talent (CSX)",
+		"title": "Visma Talent (CSX)",
+		"description": "",
+		"icon": "icons/csx.png"
+	},
+	{
+		"product": "FinAut",
+		"title": "FinAut",
+		"description": "",
+		"icon": "icons/finaut.png"
+	},
+	{
+		"product": "VOM",
+		"title": "Visma Organisation Master",
+		"description": "",
+		"icon": "icons/Visma-Mamut-One-logo.webp",
+		"integrations": [
+			{
+				"product": "Visma Talent (CSX)",
+				"integration_description": "",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+		]
+	},
+	{
+		"product": "Training Orchestra",
+		"title": "Training Orchestra",
+		"description": "",
+		"icon": "icons/Visma-Mamut-One-logo.webp",
+		"integrations": [
+			{
+				"product": "Visma Talent (SBX)",
+				"integration_description": "Training Orchestra är ett användarvänligt verktyg som förenklar processen att planera träningspass och tilldela utbildare. Detta verktyg kommer att integreras i Saba, vilket gör det möjligt för administratörer att planera för SBX mer effektivt. För att uppnå detta krävs en mellanprogramvara för att underlätta överföringen av data mellan de två systemen. Både SBX och Training Orchestra har sina egna Rest APIs, som mellanvaran kommer att använda för att hämta och skicka data mellan dem. För att säkerställa att mellanprogramvaran förblir uppdaterad med de senaste ändringarna måste den kontinuerligt efterfråga API:erna för uppdateringar. Tyvärr stöder inget av systemen webhooks för dessa objekt så kan inte uppnå realtidsuppdateringar. På grund av Sabas API-gräns kommer mellanvaran att hämta data från Saba varje timme, medan Training Orchestra inte har några sådana begränsningar och kommer att avfrågas var 5:e minut.",
+				"integration_status": "active",
+				"expected_delivery": "",
+				"links": [
+					{
+						"name": "Sales Material",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					},
+					{
+						"name": "Technical Info",
+						"link": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+					}
+				]
+			}
+		]
+	}
+]

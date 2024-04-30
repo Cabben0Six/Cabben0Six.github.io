@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VTS Integrations</title>
+        <link rel="icon" href="icons/alone_talent_hire_logo2.png">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+    </head>
+    
+    <body>
+        <div id="header">
+            <img src="icons/alone_talent_hire_logo2.png" alt="" data-title="Logo">
+            <h1>VTS INTEGRATIONS</h1>
+        </div>
+        
+        <script type="module" defer>
+            import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+            mermaid.initialize({startOnLoad: false, securityLevel: 'loose'});
+
+            window.activateDiagram = async() => {
+                const result = await mermaid.run();
+                fixMermaidMarkerColors();
+                
+                let paths = [];
+                document.getElementsByClassName("edgePaths")[0].childNodes.forEach(e => {
+                    let duplicate = e.cloneNode(false);
+                    e.id += "e";
+                    if (e.style.getPropertyValue("stroke") !== "")
+                        e.classList.add(String(e.style.getPropertyValue("stroke")));
+
+                    duplicate.style = "stroke:#000; stroke-width:20px; fill:none; stroke-opacity:0;"
+                    duplicate.removeAttribute("marker-end");
+
+                    let tindex = Array.from(duplicate.classList).find(c => c === "edge-pattern-dotted");
+                    if (tindex !== undefined) {
+                        duplicate.classList.remove("edge-pattern-dotted");
+                        duplicate.classList.add("edge-pattern-solid");
+                    }
+                    
+                    duplicate.addEventListener("click", (ev) => {
+                        if (e.classList.contains("Deactivated") === false) {
+                            let arr = [e.classList[3], e.classList[4]];
+                            clicked(arr, ev);
+                        }
+                    });
+                    
+                    let orgStyle = e.getAttribute("style");
+                    duplicate.addEventListener("mouseenter", function() {
+                        if (e.classList.contains("Deactivated") === false) {
+                            e.setAttribute("style", orgStyle + "stroke-width:2px !important;");
+                            hlightit(e.classList[3], true);
+                            hlightit(e.classList[4], true);
+                        }
+                    });
+                    duplicate.addEventListener("mouseleave", function() {
+                        if (e.classList.contains("Deactivated") === false) {
+                            e.setAttribute("style", orgStyle);
+                            hlightit(e.classList[3], false);
+                            hlightit(e.classList[4], false);
+                        }
+                    });
+
+                    document.getElementsByClassName("edgePaths")[0].appendChild(duplicate);
+                    paths.push(duplicate);
+                });
+                
+                const evt1 = new Event('mouseenter');
+                const evt2 = new Event('mouseleave');
+                document.getElementsByClassName("nodes")[0].childNodes.forEach (n => {
+                    n.classList.add("clickable");
+                    n.addEventListener("click", (ev) => {
+                        if (n.classList.contains("Deactivated") === false)
+                            clicked(n.getAttribute("data-id"), ev)
+                    });
+
+                    const myStrokes = paths.filter(function (p) {
+                        let myNum = n.getAttribute("data-id");
+                        return (p.classList.contains("LS-" + myNum) || p.classList.contains("LE-" + myNum));
+                    });
+                    
+                    let orgR = n.childNodes[0].getAttribute("r");
+                    n.addEventListener("mouseenter", function() {
+                        if (n.classList.contains("Deactivated") === false) {
+                            myStrokes.forEach(p => {p.dispatchEvent(evt1)});
+                            this.childNodes[0].setAttribute("r", orgR * 1.07);
+                        }
+                    });
+                    n.addEventListener("mouseleave", function() {
+                        if (n.classList.contains("Deactivated") === false) {
+                            myStrokes.forEach(p => {p.dispatchEvent(evt2)});
+                            this.childNodes[0].setAttribute("r", orgR);
+                        }
+                    });
+                });
+
+                document.querySelector("pre").classList.add("fademein");
+                let svgstyle = parseInt(document.querySelector("svg").style.getPropertyValue("max-width"));
+                document.querySelector("svg").style.setProperty("max-width", svgstyle * 1.35);
+
+                document.getElementById("Active").dispatchEvent(new Event("change"));
+                document.getElementById("Ongoing").dispatchEvent(new Event("change"));
+                document.getElementById("Planned").dispatchEvent(new Event("change"));
+            }
+
+            window.hlightit = function(i, method) {
+                let text = "[id^=flowchart-" + Array.from(i.match(/(\d+)/))[0] + "-]";
+                let n = document.querySelector(text);
+                n.classList.toggle("sechlight", method);
+            }
+        </script>
+        <script src="scripts/arrowColorFix.js" defer></script>
+        <script src="scripts/theScript.js" defer></script>
+        <script src="scripts/createForm.js" defer></script>
+    </body>
+</html>
