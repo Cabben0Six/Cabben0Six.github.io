@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(101, 114, 127);
+    background-image: radial-gradient(circle at 0px 0px, rgb(53, 69, 85) 3px, transparent 0);
+    background-size: 10px 10px;
+
+    overscroll-behavior: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 10px dashed rgb(29, 46, 63);
+    background-color: rgb(57, 71, 85);
+    border-radius: 10px;
+    width: 1074px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+}
+
+.imageBox {
+    display: flex;
+    flex-direction: row;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 512px;
+    height: 512px;
+    perspective: 4000px; /* Remove this if you don't want the 3D effect */
+}
+
+.spec0 { /*Deus ex + Red Alert*/
+    height: 288px;
+}
+
+.spec1 { /*Doom*/
+    width: calc(177px * 2.59240506329);
+    height: calc(132px * 2.59240506329);
+}
+
+.spec2 { /*Dungeon*/
+    width: calc(218px * 2.59240506329);
+    height: calc(132px * 2.59240506329);
+}
+
+.spec3 { /*Max payne*/
+    width: 1024px;
+    height: 768px;
+}
+
+.spec4 { /*Civ V*/
+    width: 1024px;
+    height: 640px;
+}
+
+.spec5 {
+    width: 512px;
+    height: 512px;
+}
+  
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+  
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover > .flip-card-inner {
+    transform: rotateY(180deg);
+}
+  
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+  
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+  
+/* Style the back side */
+.flip-card-back {
+    background-color: rgb(13, 37, 61);
+    color: white;
+    transform: rotateY(180deg);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flip-card-back > h1 {
+    margin-bottom: 0;
+}
+
+.flip-card-back > p {
+    margin: 0;
+}
+
+.flip-card-back:hover {
+    cursor: pointer;
+}
