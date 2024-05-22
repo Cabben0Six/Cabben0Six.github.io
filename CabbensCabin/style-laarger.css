@@ -1,0 +1,9 @@
+@media screen and (min-width: 1620px) {
+    #Crumpet {
+        content: url(Pi/ZThumbnail-Large.jpg);
+    }
+
+    #CYOA {
+        content: url(Pi/RTGameChooseYourOwnAdventure-Thumbnail-V2-Large.jpg);
+    }
+}

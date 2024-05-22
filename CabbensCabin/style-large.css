@@ -1,0 +1,29 @@
+@media screen and (min-width: 1024px) {
+    .phoneAndMedium {
+        display: none;
+    }
+
+    .largeOnly {
+        display: block;
+    }
+    
+
+
+    #Crumpet {
+        content: url(Pi/ZThumbnail-Small.jpg);
+        border-radius: 10px;
+    }
+
+    #CYOA {
+        content: url(Pi/RTGameChooseYourOwnAdventure-Thumbnail-V2-Small.jpg);
+        border-radius: 10px;
+    }
+
+    h1 {
+        display: block;
+    }
+
+    p {
+        font-size: min(3.5vw, 35px);
+    }
+}

@@ -1,0 +1,34 @@
+@media screen and (min-width: 768px) {
+    .phoneOnly {
+        display: none;
+    }
+
+    .mediumAndLarge {
+        display: block;
+    }
+
+
+    
+    #Crumpet {
+        content: url(Pi/ZThumbnail-Medium.jpg);
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #CYOA {
+        content: url(Pi/RTGameChooseYourOwnAdventure-Medium.jpg);
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    .mediumImageBox {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    p {
+        font-size: 3.5vw;
+        margin-bottom: 0;
+    }
+}

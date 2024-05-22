@@ -1,0 +1,259 @@
+[
+    {
+        "title":"Career Paths",
+        "icon":"icons/CV-APP.png",
+        "description": "Manager and employee can enable a checkbox to verify that the user fulfills different steps in their career path. Can be installed in three different modes.",
+        "code": "APP-CareerPath",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Competency Matrix",
+        "icon":"icons/CV-APP.png",
+        "description": "Displays a matrix with the managers team members and their status with to courses that the manager choses.",
+        "code": "APP-CompetencyMatix",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": [
+            {
+                "img": "icons/CV-SEARCH-APP.png"
+            },
+            {
+                "img": "icons/sabacloud.png"
+            }
+        ]
+    },
+    {
+        "title":"My Objectives",
+        "icon":"icons/blue.png",
+        "description": "Displays logged in employee goals and overall progress.",
+        "code": "APP-Objectives",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Employee Keywords",
+        "icon":"icons/CV-APP.png",
+        "description": "Displays logged in employee skills.",
+        "code": "APP-EmployeeKeywords",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Organization Chart",
+        "icon":"icons/CV-APP.png",
+        "description": "Display a neat expandable overview of the organisational hierarchy in SBX. You can also see all the employees and organisational managers that belongs to the organisations. The starting point in the organisational view is customizable via parameter.",
+        "code": "APP-OrgChart",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"My Skills Overview",
+        "icon":"icons/CV-APP.png",
+        "description": "Displays competencies grouped by \"competeny groups\" with the possibility to assess compencies.",
+        "code": "APP-MySkillsOverview",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Progress Checkin",
+        "icon":"icons/CV-APP.png",
+        "description": "Similar to \"pulsdialog\" app but with different UI and values.",
+        "code": "APP-ProgressCheckin",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Role Information",
+        "icon":"icons/CV-APP.png",
+        "description": "Replaced by \"RolesByCategory.\" Displaying a list of all roles along with details.",
+        "code": "APP-RoleInformation",
+        "urls": [],
+        "imgs": []
+    },
+    {
+        "title":"Roles By Category",
+        "icon":"icons/CV-APP.png",
+        "description": "Displays all roles categorized by a custom-field. For administrators it will also show users having the roles.",
+        "code": "APP-RolesByCategory",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Oktogonen",
+        "icon":"icons/CV-APP.png",
+        "description": "The app is used to, once a year verify a process called \"oktagonen\" for users in the team.",
+        "code": "APP-Oktogonen",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Pulsdialog",
+        "icon":"icons/CV-APP.png",
+        "description": "A simplified pulsedialog with predefined values.",
+        "code": "APP-Pulsdialog",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Swedsec",
+        "icon":"icons/CV-APP.png",
+        "description": "Gathers employees from a smartlist and displays a preview of all the employees before sending them to swedsec.",
+        "code": "APP-Swedsec",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Certification Attachment",
+        "icon":"icons/CV-APP.png",
+        "description": "Enables the users to add transcript and attach documents to the transcript. If the course belongs to a certificate, then it will also be listed in a certificate tree view.\nThere is also an admin and team view for the app with the possibility to reject or accept registrations.",
+        "code": "APP-CertificationAttachment",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"CV",
+        "icon":"icons/CV-APP.png",
+        "description": "Saba CV App. Helps you identify desired individuals based on search criteria. Customizable fields - Shows only the information you need at the moment. Select fields depending on what information is required in the CV.",
+        "code": "APP-CV",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Team Learning Overview",
+        "icon":"icons/CV-APP.png",
+        "description": "Saba Team Learning Overview App. The manager gets quick access and relevant overview of progress and completion of courses.",
+        "code": "APP-LearningOverview",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Documents",
+        "icon":"icons/CV-APP.png",
+        "description": "Saba Documents App. A good tool for securely archiving and storing important documents. Can be shared between the manager and the employee.",
+        "code": "APP-Documents",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"My Roles",
+        "icon":"icons/CV-APP.png",
+        "description": "Saba My Role App. A tool which gives you an overview over roles and requirements.",
+        "code": "APP-MyRoles",
+        "urls": [],
+        "imgs": []
+    },
+    {
+        "title":"CV Search",
+        "icon":"icons/CV-APP.png",
+        "description": "Saba CV Search App. The search app is a service to easily find individuals based on various criteria e.g. language skills, experience, skills, abilities etc.",
+        "code": "APP-CVSearch",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Job Role Library",
+        "icon":"icons/CV-APP.png",
+        "description": "Saba Job Role App. People can display and connect roles to themselves.",
+        "code": "APP-JOB-ROLE",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    },
+    {
+        "title":"Employee Career Profile",
+        "icon":"icons/CV-APP.png",
+        "description": "Saba Employee Career Profile App. For display and self-service where users can change some information.",
+        "code": "APP-EMP-CAREER-PROF",
+        "urls": [
+            {
+                "name": "Documentation",
+                "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+            }
+        ],
+        "imgs": []
+    }
+]
